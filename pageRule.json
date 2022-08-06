@@ -1,0 +1,124 @@
+[
+    {
+        "cardId": "16569804189120.6762059306508803",
+        "cardTitle": "Information",
+        "rows": [
+            {
+                "rowId": "16569804189120.7658308519232795",
+                "gutter": 16,
+                "fields": [
+                    {
+                        "uid": "16569807256320.3070714598881492",
+                        "fieldType": "Select",
+                        "fieldDataType": "string",
+                        "width": "25%",
+                        "label": "Input2",
+                        "fieldName": "input2",
+                        "colSpan": 12,
+                        "required": false,
+                        "validations": [],
+                        "options": [
+                            {
+                                "label": "Standard",
+                                "value": "standard",
+                                "index": 1656987477702.4958
+                            },
+                            {
+                                "label": "Estimation",
+                                "value": "estimation",
+                                "index": 1656987494468.0745
+                            }
+                        ],
+                        "defaultValue": "standard"
+                    },
+                    {
+                        "uid": "16570917294340.4704334361432476",
+                        "fieldType": "InputNumber",
+                        "fieldDataType": "number",
+                        "width": "25%",
+                        "label": "Input17",
+                        "fieldName": "input17",
+                        "colSpan": 12,
+                        "display": "{formEdit.input2} === 'standard'",
+                        "required": false,
+                        "validations": [
+                            {
+                                "name": "required",
+                                "index": 1
+                            },
+                            {
+                                "name": "required",
+                                "index": 1
+                            }
+                        ],
+                        "options": [],
+                        "disabled": ""
+                    },
+                    {
+                        "uid": "16570917919470.158507784843255",
+                        "fieldType": "Radio",
+                        "fieldDataType": "string",
+                        "width": "25%",
+                        "label": "Input62",
+                        "fieldName": "input62",
+                        "colSpan": 12,
+                        "required": false,
+                        "validations": [],
+                        "options": [
+                            {
+                                "label": "yes",
+                                "value": "yes",
+                                "index": 1657091798295.0193
+                            },
+                            {
+                                "label": "no",
+                                "value": "no",
+                                "index": 1657091800959.501
+                            }
+                        ],
+                        "disabled": ""
+                    }
+                ]
+            },
+            {
+                "rowId": "16570051899020.7655367325811171",
+                "gutter": 16,
+                "fields": [
+                    {
+                        "uid": "16570928078730.8278116414772647",
+                        "fieldType": "InputNumber",
+                        "fieldDataType": "number",
+                        "width": "25%",
+                        "label": "Input32",
+                        "fieldName": "input32",
+                        "colSpan": 12,
+                        "required": false,
+                        "validations": [
+                            {
+                                "name": "validator",
+                                "index": 1,
+                                "customizeValidator": "{formEdit.input32} > 0",
+                                "errorMessage": " > 0"
+                            }
+                        ],
+                        "options": [],
+                        "disabled": ""
+                    },
+                    {
+                        "uid": "16597744043310.9768267173993497",
+                        "fieldType": "Input",
+                        "fieldDataType": "string",
+                        "width": "25%",
+                        "label": "Input95",
+                        "fieldName": "input95",
+                        "colSpan": 12,
+                        "required": false,
+                        "validations": [],
+                        "options": [],
+                        "disabled": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
